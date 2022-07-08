@@ -25,7 +25,8 @@ module.exports = {
                     'carousel'
                 ],
                 greedy: [
-                    /carousel$/
+                    /carousel$/,
+                    /$carousel/
                 ]
             }
         }),
