@@ -18,7 +18,9 @@
 <script>
 // If you are using PurgeCSS, make sure to whitelist the carousel CSS classes
 import {ref} from 'vue';
+/* purgecss start ignore */
 import 'vue3-carousel/dist/carousel.css';
+/* purgecss end ignore */
 import Typography from "@/components/Typography";
 import {Carousel, Slide, Navigation} from 'vue3-carousel';
 
@@ -69,7 +71,7 @@ export default {
 </script>
 
 <style lang="scss">
-
+/* purgecss start ignore */
 .carousel__prev, .carousel__next {
   top: 0%;
   transform: none;
@@ -126,5 +128,5 @@ export default {
     padding-bottom: 120%;
   }
 }
-
+/* purgecss end ignore */
 </style>
