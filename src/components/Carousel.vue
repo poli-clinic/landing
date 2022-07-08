@@ -2,7 +2,7 @@
   <carousel :items-to-show="1" :autoplay="200000" :wrap-around="true">
     <slide v-for="slide in slides" :key="slide">
       <div class="carousel__item">
-        <img ref="bg-slide" alt="{{ slide.title }}" :src="slide.image">
+        <img ref="bg-slide" alt="{{ slide.title }}" title="{{ slide.title }}" :src="slide.image">
         <div class="carousel-item__content">
           <Typography :heading="1">{{ slide.title }}</Typography>
           {{ slide.excerpt }}
@@ -39,27 +39,27 @@ export default {
       {
         title: 'Title 1',
         excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        image: 'https://ik.imagekit.io/vj78ie3kf/young-blond-lovely-woman-in-luxurious-red-dress-with-wide-sleeves-expressive-pose_6fp_3BAd5.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1656938844776'
+        image: 'https://ik.imagekit.io/vj78ie3kf/image1_581IvtKOl.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1657289646337'
       },
       {
         title: 'Title 2',
         excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        image: 'https://ik.imagekit.io/vj78ie3kf/fashion-portrait-of-young-elegant-woman_4NtRD9hPB.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1656938843278'
+        image: 'https://ik.imagekit.io/vj78ie3kf/image2_tngLQ4G23.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1657289646332'
       },
       {
         title: 'Title 3',
         excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        image: 'https://ik.imagekit.io/vj78ie3kf/young-blond-lovely-woman-in-luxurious-red-dress-with-wide-sleeves-expressive-pose_6fp_3BAd5.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1656938844776'
+        image: 'https://ik.imagekit.io/vj78ie3kf/image1_581IvtKOl.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1657289646337'
       },
       {
         title: 'Title 4',
         excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        image: 'https://ik.imagekit.io/vj78ie3kf/fashion-portrait-of-young-elegant-woman_4NtRD9hPB.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1656938843278'
+        image: 'https://ik.imagekit.io/vj78ie3kf/image2_tngLQ4G23.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1657289646332'
       },
       {
         title: 'Title 5',
         excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        image: 'https://ik.imagekit.io/vj78ie3kf/young-blond-lovely-woman-in-luxurious-red-dress-with-wide-sleeves-expressive-pose_6fp_3BAd5.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1656938844776'
+        image: 'https://ik.imagekit.io/vj78ie3kf/image1_581IvtKOl.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1657289646337'
       }
     ]);
 

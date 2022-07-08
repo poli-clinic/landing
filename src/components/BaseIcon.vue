@@ -1,5 +1,5 @@
 <template>
-  <img :src="iconComponent" width="64"/>
+  <img :src="iconComponent" alt="" title="" width="64"/>
 </template>
 
 <script>

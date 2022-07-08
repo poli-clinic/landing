@@ -9,7 +9,7 @@
       <BaseIcon :name="img"></BaseIcon>
     </div>
     <div class="card-header">
-      <Typography :heading="3"
+      <Typography :heading="2"
         data-aos="fade-up"
         data-aos-offset=""
         data-aos-easing="ease-in-out">
