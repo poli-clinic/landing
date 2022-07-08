@@ -39,27 +39,27 @@ export default {
       {
         title: 'Title 1',
         excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        image: 'https://ik.imagekit.io/vj78ie3kf/image1_581IvtKOl.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1657289646337'
+        image: 'https://ik.imagekit.io/vj78ie3kf/image1_ktU8HizbV.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1657290306892'
       },
       {
         title: 'Title 2',
         excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        image: 'https://ik.imagekit.io/vj78ie3kf/image2_tngLQ4G23.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1657289646332'
+        image: 'https://ik.imagekit.io/vj78ie3kf/image2_GhhFZ4LcX.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1657290223562'
       },
       {
         title: 'Title 3',
         excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        image: 'https://ik.imagekit.io/vj78ie3kf/image1_581IvtKOl.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1657289646337'
+        image: 'https://ik.imagekit.io/vj78ie3kf/image1_ktU8HizbV.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1657290306892'
       },
       {
         title: 'Title 4',
         excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        image: 'https://ik.imagekit.io/vj78ie3kf/image2_tngLQ4G23.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1657289646332'
+        image: 'https://ik.imagekit.io/vj78ie3kf/image2_GhhFZ4LcX.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1657290223562'
       },
       {
         title: 'Title 5',
         excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        image: 'https://ik.imagekit.io/vj78ie3kf/image1_581IvtKOl.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1657289646337'
+        image: 'https://ik.imagekit.io/vj78ie3kf/image1_ktU8HizbV.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1657290306892'
       }
     ]);
 
