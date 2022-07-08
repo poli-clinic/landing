@@ -34,7 +34,6 @@
 
 <script setup>
 import {ref,onMounted} from "vue";
-//import { PurgeCSS } from "purgecss";
 import gsap from 'gsap';
 import ScrollTrigger from "gsap/ScrollTrigger";
 // @ts-ignore
@@ -45,10 +44,8 @@ import Card from "./components/Card.vue";
 import Grid from "./components/Grid.vue";
 import Footer from "./components/Footer.vue";
 
+
 const logo = ref(null);
-/* eslint-disable no-unused-vars */
-//const purgecss = await new PurgeCSS().purge();
-/* eslint-enable no-unused-vars */
 let tl = null;
 
 const colors = {
