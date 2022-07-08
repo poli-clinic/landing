@@ -18,9 +18,9 @@
 <script>
 // If you are using PurgeCSS, make sure to whitelist the carousel CSS classes
 import {ref} from 'vue';
-/*! purgeCSS start ignore */
+/*! purgecss start ignore */
 import 'vue3-carousel/dist/carousel.css';
-/*! purgeCSS end ignore */
+/*! purgecss end ignore */
 import Typography from "@/components/Typography";
 import {Carousel, Slide, Navigation} from 'vue3-carousel';
 

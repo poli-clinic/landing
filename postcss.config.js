@@ -22,10 +22,10 @@ module.exports = {
                     /^(?!(|.*?:)cursor-move).+-move$/,
                     /^router-link(|-exact)-active$/,
                     /data-v-.*/,
-                    'carousel'
+                    /carousel/
                 ],
                 greedy: [
-                    /carousel$/
+                    /carousel/
                 ]
             }
         }),
