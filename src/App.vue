@@ -14,7 +14,7 @@
         </Grid>
       </div>
 
-      <div class="flex">
+      <div class="flex flex-column--mobile py-7" data-animation>
         <img ref="logo" :src="logoImg" alt="Logo" width="210" height="210">
 
         <Circle :color="colors.blue" />
@@ -24,21 +24,31 @@
         <Circle :color="colors.purple" />
         <Circle :color="colors.pink" />
       </div>
+
     </div>
+
+    <Footer></Footer>
+
   </div>
 </template>
 
 <script setup>
 import {ref,onMounted} from "vue";
+//import { PurgeCSS } from "purgecss";
 import gsap from 'gsap';
+import ScrollTrigger from "gsap/ScrollTrigger";
 // @ts-ignore
 import logoImg from './assets/logo.png';
 import Circle from "./components/Circle.vue";
 import CarouselVue from "./components/Carousel.vue";
 import Card from "./components/Card.vue";
 import Grid from "./components/Grid.vue";
+import Footer from "./components/Footer.vue";
 
 const logo = ref(null);
+/* eslint-disable no-unused-vars */
+//const purgecss = await new PurgeCSS().purge();
+/* eslint-enable no-unused-vars */
 let tl = null;
 
 const colors = {
@@ -52,7 +62,15 @@ const colors = {
 }
 
 onMounted(() => {
-  tl = gsap.timeline();
+
+  gsap.registerPlugin(ScrollTrigger);
+
+  tl = gsap.timeline({
+    scrollTrigger: {
+      trigger: "[data-animation]",
+      //markers: true
+    }
+  });
 
   tl.from(logo.value, {
     x: -300,
@@ -122,8 +140,8 @@ onMounted(() => {
   margin-right: -1rem;
 }
 
-@media (max-width: 600px) {
-  #fancy-page {
+@media (max-width: 767px) {
+  .flex-column--mobile{
     flex-direction: column;
   }
 }

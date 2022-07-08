@@ -68,4 +68,12 @@ export default {
   max-width: 66.6666%;
 }
 
+@media(max-width: 767px){
+  .col{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+}
+
 </style>

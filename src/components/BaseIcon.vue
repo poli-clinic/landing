@@ -26,7 +26,6 @@ export default {
 
   computed: {
     iconComponent() {
-      console.log(icons[this.name]);
       return icons[this.name]
     }
   }

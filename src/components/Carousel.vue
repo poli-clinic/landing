@@ -121,4 +121,10 @@ export default {
   bottom: 40px;
 }
 
+@media (max-width: 767px){
+  .carousel__item {
+    padding-bottom: 120%;
+  }
+}
+
 </style>
