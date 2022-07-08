@@ -2,7 +2,7 @@
   <carousel :items-to-show="1" :autoplay="200000" :wrap-around="true">
     <slide v-for="slide in slides" :key="slide">
       <div class="carousel__item">
-        <img ref="bg-slide" :src="slide.image">
+        <img ref="bg-slide" alt="{{ slide.title }}" :src="slide.image">
         <div class="carousel-item__content">
           <Typography :heading="1">{{ slide.title }}</Typography>
           {{ slide.excerpt }}
@@ -18,9 +18,9 @@
 <script>
 // If you are using PurgeCSS, make sure to whitelist the carousel CSS classes
 import {ref} from 'vue';
-/* purgeCSS start ignore */
+/*! purgeCSS start ignore */
 import 'vue3-carousel/dist/carousel.css';
-/* purgeCSS end ignore */
+/*! purgeCSS end ignore */
 import Typography from "@/components/Typography";
 import {Carousel, Slide, Navigation} from 'vue3-carousel';
 
@@ -73,10 +73,10 @@ export default {
 <style lang="scss">
 /* purgecss start ignore */
 .carousel__prev, .carousel__next {
-  top: 0%;
+  top: 0;
   transform: none;
   height: 100%;
-  border-radius: 0px;
+  border-radius: 0;
   background-color: transparent;
   width: 50%;
   max-width: 220px;
