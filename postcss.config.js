@@ -22,7 +22,7 @@ module.exports = {
           /^router-link(|-exact)-active$/,
           /data-v-.*/
         ],
-        whitelistPatterns: [/$.carousel/],
+        whitelistPatterns: [/carousel/],
       }),
   ],
 };
