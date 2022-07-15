@@ -1,8 +1,10 @@
 <template>
   <div id="fancy-page">
     <CarouselVue></CarouselVue>
+
     <div class="container">
       <div class="row py-7">
+        TEST
         <Grid :col="4">
           <Card :img="'green_socks'" :title="'Title card'" :msg="'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor'"></Card>
         </Grid>
